@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Галерея (Варіант 0)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Галерея зображень</h1>
+
+<div id="gallery">
+    <img id="mainImage" src="images/1.jpg" alt="Зображення 1">
+
+    <ul id="imageList">
+        <!-- генерується автоматично JS -->
+    </ul>
+</div>
+
+<hr>
+
+<h2>Налаштування зображення</h2>
+
+<label>Ширина (px):</label>
+<input type="number" id="imgWidth" value="300"><br>
+
+<label>Висота (px):</label>
+<input type="number" id="imgHeight" value="300"><br>
+
+<label>Товщина рамки (px):</label>
+<input type="number" id="imgBorder" value="2"><br>
+
+<label>Альтернативний текст:</label>
+<input type="text" id="imgAlt" value="Зображення"><br><br>
+
+<button onclick="applySettings()">Застосувати</button>
+
+<script src="script.js"></script>
+</body>
+</html>
